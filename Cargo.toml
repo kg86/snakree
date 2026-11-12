@@ -1,0 +1,12 @@
+[package]
+name = "snakree"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+description = "Sliding-window implicit suffix trees with primary leaf pointers"
+license-file = "LICENSE"
+publish = false
+
+[[bench]]
+name = "bench"
+harness = false
